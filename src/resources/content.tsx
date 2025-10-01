@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Nasywa",
   lastName: "Faizah",
   name: `Nasywa Faizah`,
-  role: "Design Engineer",
+  role: "UI/UX Designer",
   avatar: "/images/avatar.jpg",
   email: "naviansry@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -24,17 +24,17 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/NasywaFA",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/nasywa-faizah-avianisa-3a0357263/",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@rchive.ray",
   },
   {
     name: "Email",
@@ -65,7 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      I'm Nasywa, a design engineer at{" "}
       <Logo
         dark
         icon="/trademarks/wordmark-dark.svg"
@@ -98,7 +98,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Nasywa or Nanas is a Malang-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
