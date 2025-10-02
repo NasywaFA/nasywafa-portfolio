@@ -162,7 +162,7 @@ export default async function RootLayout({
               <RouteGuard>{children}</RouteGuard>
             </Flex>
           </Flex>
-          <Footer />
+          <Footer/>
         </Column>
       </Providers>
     </Flex>

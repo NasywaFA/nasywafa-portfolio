@@ -49,7 +49,8 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Design Drip, Budget Fit 
+            <br /> with Rchive</>,
   featured: {
     display: true,
     title: (
@@ -65,13 +66,7 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Nasywa, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
+      I'm Nasywa, a UI/UX Designer, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -98,7 +93,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Nasywa or Nanas is a Malang-based design engineer with a passion for transforming complex challenges
+        Nasywa or Nanas is a Malang-based UI/UX Designer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
@@ -106,26 +101,24 @@ const about: About = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "SMKN 2 Malang",
+        timeframe: "2023 - Present",
+        role: "Student",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Creating the UI/UX for the Online School Library with team.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Self-tought UI/UX Desiger - Learned Figma through personal project and competitions.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/cover-01.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
